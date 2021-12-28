@@ -1,2 +1,2 @@
 # Welcome
-Adventure Picture Healing Game
+Adventure Shoot Healing Game
