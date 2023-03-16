@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 87ea8ecc28858db4e853341be4f22df9
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Pc-front_GO/Pc-front_GO
+    100002: Pc-front_GO/Pc-front_GO/front-arm
+    100004: Pc-front_GO/Pc-front_GO/front-body
+    100006: Pc-front_GO/Pc-front_GO/front-leg L
+    100008: Pc-front_GO/Pc-front_GO/front-leg R
+    400000: Pc-front_GO/Pc-front_GO/Transform
+    400002: Pc-front_GO/Pc-front_GO/front-arm/Transform
+    400004: Pc-front_GO/Pc-front_GO/front-body/Transform
+    400006: Pc-front_GO/Pc-front_GO/front-leg L/Transform
+    400008: Pc-front_GO/Pc-front_GO/front-leg R/Transform
+    2800000: Pc-front
+    21200000: Pc-front_GO/Pc-front_GO/front-arm/SpriteRenderer
+    21200002: Pc-front_GO/Pc-front_GO/front-body/SpriteRenderer
+    21200004: Pc-front_GO/Pc-front_GO/front-leg L/SpriteRenderer
+    21200006: Pc-front_GO/Pc-front_GO/front-leg R/SpriteRenderer
+    21300000: b3ede652ecaf1c1479256553ea2b47c6
+    21300002: e90def78652872747bc52e463e226e93
+    21300004: 82a1a1e960d4ddc419a2b5c14ee7bb43
+    21300006: 58f97814a729d9043bdd653bdfbaf7f2
+    100100000: Pc-front_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: front-arm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 314
+      width: 38
+      height: 64
+    spriteID: b3ede652ecaf1c1479256553ea2b47c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -133, y: 73}
+  - name: front-body
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 288
+      height: 409
+    spriteID: e90def78652872747bc52e463e226e93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -123, y: -179}
+  - name: front-leg R
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 4
+      width: 65
+      height: 147
+    spriteID: 82a1a1e960d4ddc419a2b5c14ee7bb43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 45, y: -32}
+  - name: front-leg L
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 159
+      width: 65
+      height: 147
+    spriteID: 58f97814a729d9043bdd653bdfbaf7f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 121, y: 123}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 525, y: 642}
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: front-arm
+    spriteName: front-arm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b3ede652ecaf1c1479256553ea2b47c6
+    layerID: 5
+    mosaicPosition: {x: 300, y: 314}
+  - name: front-body
+    spriteName: front-body
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e90def78652872747bc52e463e226e93
+    layerID: 4
+    mosaicPosition: {x: 4, y: 4}
+  - name: front-leg R
+    spriteName: front-leg R
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 82a1a1e960d4ddc419a2b5c14ee7bb43
+    layerID: 3
+    mosaicPosition: {x: 300, y: 4}
+  - name: front-leg L
+    spriteName: front-leg L
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 58f97814a729d9043bdd653bdfbaf7f2
+    layerID: 2
+    mosaicPosition: {x: 300, y: 159}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
+  textureAssetName: Pc-front
+  prefabAssetName: Pc-front_GO
