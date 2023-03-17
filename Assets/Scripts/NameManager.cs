@@ -15,6 +15,7 @@ public class NameManager : MonoBehaviour
         if (PlayerPrefs.HasKey("PlayerName"))
         {
             Debug.Log("저장");
+            Destroy(GameObject.Find("MusicSource"));
             SceneManager.LoadScene("Play");
         }
 

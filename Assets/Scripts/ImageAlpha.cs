@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ImageAlpha : MonoBehaviour
 {
-    Image image;
+   Image image;
 
     void Start()
     {

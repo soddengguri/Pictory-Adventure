@@ -1,51 +1,138 @@
 fileFormatVersion: 2
 guid: 94d4db281c6b77945983ad6c73ede8eb
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: player-front_GO/player-front_GO
-    100002: player-front_GO/player-front_GO/front-arm-L
-    100004: player-front_GO/player-front_GO/front-arm-R
-    100006: player-front_GO/player-front_GO/front-body
-    100008: player-front_GO/player-front_GO/front-leg-L
-    100010: player-front_GO/player-front_GO/front-leg-R
-    100012: player-front_GO/player-front_GO/bone_1
-    100014: player-front_GO/player-front_GO/bone_1/bone_2
-    100016: player-front_GO/player-front_GO/bone_1/bone_2/bone_3
-    100018: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/bone_6
-    100020: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/bone_7
-    100022: player-front_GO/player-front_GO/bone_1/bone_2/bone_4
-    100024: player-front_GO/player-front_GO/bone_1/bone_2/bone_5
-    400000: player-front_GO/player-front_GO/Transform
-    400002: player-front_GO/player-front_GO/front-arm-L/Transform
-    400004: player-front_GO/player-front_GO/front-arm-R/Transform
-    400006: player-front_GO/player-front_GO/front-body/Transform
-    400008: player-front_GO/player-front_GO/front-leg-L/Transform
-    400010: player-front_GO/player-front_GO/front-leg-R/Transform
-    400012: player-front_GO/player-front_GO/bone_1/Transform
-    400014: player-front_GO/player-front_GO/bone_1/bone_2/Transform
-    400016: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/Transform
-    400018: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/bone_6/Transform
-    400020: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/bone_7/Transform
-    400022: player-front_GO/player-front_GO/bone_1/bone_2/bone_4/Transform
-    400024: player-front_GO/player-front_GO/bone_1/bone_2/bone_5/Transform
-    2800000: player-front
-    11400000: player-front_GO/player-front_GO/front-arm-L/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400002: player-front_GO/player-front_GO/front-arm-R/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400004: player-front_GO/player-front_GO/front-body/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400006: player-front_GO/player-front_GO/front-leg-L/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400008: player-front_GO/player-front_GO/front-leg-R/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    21200000: player-front_GO/player-front_GO/front-arm-L/SpriteRenderer
-    21200002: player-front_GO/player-front_GO/front-arm-R/SpriteRenderer
-    21200004: player-front_GO/player-front_GO/front-body/SpriteRenderer
-    21200006: player-front_GO/player-front_GO/front-leg-L/SpriteRenderer
-    21200008: player-front_GO/player-front_GO/front-leg-R/SpriteRenderer
-    21300000: 2136df3422c316d4abe171056b67c6ef
-    21300002: 03b820b7dfe176b44b3c29522bb118fa
-    21300004: e2763da07878d1c4b9a31a1775b464f4
-    21300006: 6a7852f0bd0a24c4c8bd3bbbcabd66b1
-    21300008: 841e30578ce6a474db05b9a0c474b2ec
-    100100000: player-front_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: player-front_GO/player-front_GO
+  - first:
+      1: 100002
+    second: player-front_GO/player-front_GO/front-arm-L
+  - first:
+      1: 100004
+    second: player-front_GO/player-front_GO/front-arm-R
+  - first:
+      1: 100006
+    second: player-front_GO/player-front_GO/front-body
+  - first:
+      1: 100008
+    second: player-front_GO/player-front_GO/front-leg-L
+  - first:
+      1: 100010
+    second: player-front_GO/player-front_GO/front-leg-R
+  - first:
+      1: 100012
+    second: player-front_GO/player-front_GO/bone_1
+  - first:
+      1: 100014
+    second: player-front_GO/player-front_GO/bone_1/bone_2
+  - first:
+      1: 100016
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_3
+  - first:
+      1: 100018
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/bone_6
+  - first:
+      1: 100020
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/bone_7
+  - first:
+      1: 100022
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_4
+  - first:
+      1: 100024
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_5
+  - first:
+      4: 400000
+    second: player-front_GO/player-front_GO/Transform
+  - first:
+      4: 400002
+    second: player-front_GO/player-front_GO/front-arm-L/Transform
+  - first:
+      4: 400004
+    second: player-front_GO/player-front_GO/front-arm-R/Transform
+  - first:
+      4: 400006
+    second: player-front_GO/player-front_GO/front-body/Transform
+  - first:
+      4: 400008
+    second: player-front_GO/player-front_GO/front-leg-L/Transform
+  - first:
+      4: 400010
+    second: player-front_GO/player-front_GO/front-leg-R/Transform
+  - first:
+      4: 400012
+    second: player-front_GO/player-front_GO/bone_1/Transform
+  - first:
+      4: 400014
+    second: player-front_GO/player-front_GO/bone_1/bone_2/Transform
+  - first:
+      4: 400016
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/Transform
+  - first:
+      4: 400018
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/bone_6/Transform
+  - first:
+      4: 400020
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_3/bone_7/Transform
+  - first:
+      4: 400022
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_4/Transform
+  - first:
+      4: 400024
+    second: player-front_GO/player-front_GO/bone_1/bone_2/bone_5/Transform
+  - first:
+      28: 2800000
+    second: player-front
+  - first:
+      114: 11400000
+    second: player-front_GO/player-front_GO/front-arm-L/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400002
+    second: player-front_GO/player-front_GO/front-arm-R/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400004
+    second: player-front_GO/player-front_GO/front-body/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400006
+    second: player-front_GO/player-front_GO/front-leg-L/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400008
+    second: player-front_GO/player-front_GO/front-leg-R/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      212: 21200000
+    second: player-front_GO/player-front_GO/front-arm-L/SpriteRenderer
+  - first:
+      212: 21200002
+    second: player-front_GO/player-front_GO/front-arm-R/SpriteRenderer
+  - first:
+      212: 21200004
+    second: player-front_GO/player-front_GO/front-body/SpriteRenderer
+  - first:
+      212: 21200006
+    second: player-front_GO/player-front_GO/front-leg-L/SpriteRenderer
+  - first:
+      212: 21200008
+    second: player-front_GO/player-front_GO/front-leg-R/SpriteRenderer
+  - first:
+      213: 21300000
+    second: 2136df3422c316d4abe171056b67c6ef
+  - first:
+      213: 21300002
+    second: 03b820b7dfe176b44b3c29522bb118fa
+  - first:
+      213: 21300004
+    second: e2763da07878d1c4b9a31a1775b464f4
+  - first:
+      213: 21300006
+    second: 6a7852f0bd0a24c4c8bd3bbbcabd66b1
+  - first:
+      213: 21300008
+    second: 841e30578ce6a474db05b9a0c474b2ec
+  - first:
+      1001: 100100000
+    second: player-front_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -66,6 +153,7 @@ ScriptedImporter:
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
+    vTOnly: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -84,6 +172,9 @@ ScriptedImporter:
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -103,6 +194,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -116,6 +208,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,6 +232,7 @@ ScriptedImporter:
       width: 38
       height: 64
     spriteID: 2136df3422c316d4abe171056b67c6ef
+    internalID: 0
     spriteBone:
     - name: bone_4
       position: {x: 19.299744, y: 51.900787, z: 0}
@@ -835,6 +929,7 @@ ScriptedImporter:
       width: 38
       height: 64
     spriteID: 03b820b7dfe176b44b3c29522bb118fa
+    internalID: 0
     spriteBone:
     - name: bone_5
       position: {x: 19.56665, y: 49.100555, z: 0}
@@ -1521,6 +1616,7 @@ ScriptedImporter:
       width: 277
       height: 402
     spriteID: e2763da07878d1c4b9a31a1775b464f4
+    internalID: 0
     spriteBone:
     - name: bone_3
       position: {x: 71.49848, y: -0.00019943721, z: 0}
@@ -2331,6 +2427,7 @@ ScriptedImporter:
       width: 55
       height: 133
     spriteID: 6a7852f0bd0a24c4c8bd3bbbcabd66b1
+    internalID: 0
     spriteBone:
     - name: bone_6
       position: {x: 29.233337, y: 108.70029, z: 0}
@@ -3223,6 +3320,7 @@ ScriptedImporter:
       width: 55
       height: 133
     spriteID: 841e30578ce6a474db05b9a0c474b2ec
+    internalID: 0
     spriteBone:
     - name: bone_7
       position: {x: 30.300049, y: 111.50037, z: 0}
@@ -4132,6 +4230,7 @@ ScriptedImporter:
     textureFormat: -1
     textureCompression: 3
     compressionQuality: 100
+    forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
@@ -4142,6 +4241,10 @@ ScriptedImporter:
   importedTextureWidth: 512
   importedTextureHeight: 512
   documentSize: {x: 693, y: 693}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 512
   textureActualHeight: 512
   spritePackingTag: 
@@ -4236,6 +4339,8 @@ ScriptedImporter:
         height: 64
       spriteId: 2136df3422c316d4abe171056b67c6ef
       bones: 03000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 529
         y: 282
@@ -4243,6 +4348,8 @@ ScriptedImporter:
         height: 64
       spriteId: 03b820b7dfe176b44b3c29522bb118fa
       bones: 04000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 208
         y: 224
@@ -4250,6 +4357,8 @@ ScriptedImporter:
         height: 402
       spriteId: e2763da07878d1c4b9a31a1775b464f4
       bones: 020000000100000000000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 272
         y: 74
@@ -4257,6 +4366,8 @@ ScriptedImporter:
         height: 133
       spriteId: 6a7852f0bd0a24c4c8bd3bbbcabd66b1
       bones: 05000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 368
         y: 74
@@ -4264,22 +4375,12 @@ ScriptedImporter:
         height: 133
       spriteId: 841e30578ce6a474db05b9a0c474b2ec
       bones: 06000000
+      parentGroup: 0
+      order: 0
     dimension: {x: 0, y: 0}
-  boneGOs:
-  - go: {fileID: 100012, guid: 94d4db281c6b77945983ad6c73ede8eb, type: 3}
-    index: 0
-  - go: {fileID: 100014, guid: 94d4db281c6b77945983ad6c73ede8eb, type: 3}
-    index: 1
-  - go: {fileID: 100016, guid: 94d4db281c6b77945983ad6c73ede8eb, type: 3}
-    index: 2
-  - go: {fileID: 100022, guid: 94d4db281c6b77945983ad6c73ede8eb, type: 3}
-    index: 3
-  - go: {fileID: 100024, guid: 94d4db281c6b77945983ad6c73ede8eb, type: 3}
-    index: 4
-  - go: {fileID: 100018, guid: 94d4db281c6b77945983ad6c73ede8eb, type: 3}
-    index: 5
-  - go: {fileID: 100020, guid: 94d4db281c6b77945983ad6c73ede8eb, type: 3}
-    index: 6
+    characterGroups: []
   generateGOHierarchy: 0
   textureAssetName: player-front
   prefabAssetName: player-front_GO
+  spriteLibAssetName: player-front Sprite Lib
+  secondarySpriteTextures: []

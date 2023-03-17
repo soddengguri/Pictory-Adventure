@@ -5,17 +5,17 @@ using UnityEngine.UI;
 
 public class ImgCount : MonoBehaviour
 {
+    public int picNumber = 0;
     public Text picCount;
     
     void Start()
     {
-        FrameBtn frameBtn = GameObject.Find("RawImage").GetComponent<FrameBtn>();
-        picCount.text = frameBtn.imgCount.ToString();
-    }
-
-    
-    void Update()
-    {
+        picCount = GetComponent<Text>();
+        //FrameBtn frameBtn = GameObject.Find("RawImage").GetComponent<FrameBtn>();
+        picCount.text =  picCount.ToString();
+        //GameObject.transform.Find("O_countImg");
         
     }
+
+
 }

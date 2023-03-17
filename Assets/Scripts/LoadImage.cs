@@ -17,6 +17,16 @@ public class LoadImage : MonoBehaviour
         {
             image.GetComponent<RawImage>().texture = album[i];
         }
+    }
 
+    void LoadResource()
+    {
+
+        Texture[] album = Resources.LoadAll<Texture>("Snapshots");
+
+        for (int i = 0; i < album.Length; i++)
+        {
+            image.GetComponent<RawImage>().texture = album[i];
+        }
     }
 }

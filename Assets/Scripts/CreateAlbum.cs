@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class CreateAlbum : MonoBehaviour
 {
@@ -9,10 +11,29 @@ public class CreateAlbum : MonoBehaviour
 
     public void Start()
     {
-        for (int i = 0; i < 100; i++)
-        {
-            Instantiate(rawimg, createPos, Quaternion.identity, GameObject.Find("Contents").transform);
-        }
+;       LoadImage();
+    }
 
+    public void LoadImage()
+    {
+
+        //AssetDatabase.Refresh();
+        GameObject imgData = rawimg;
+
+        Texture[] album = Resources.LoadAll<Texture>("Snapshots");
+
+        for (int i = 0; i < album.Length; i++)
+        {
+            GameObject newObj = Instantiate(
+            imgData, createPos, Quaternion.identity,
+            GameObject.Find("Contents").transform);
+
+            newObj.GetComponent<RawImage>().texture = album[i];
+        }
+    }
+
+    public void ResourceRefresh()
+    {
+       // Object.Destroy(imgData);
     }
 }

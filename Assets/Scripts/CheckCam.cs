@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CheckCam : MonoBehaviour
 {
+    public Image foundImg;
     public GameObject questItem;
     public Camera cam;
 
@@ -17,7 +18,7 @@ public class CheckCam : MonoBehaviour
 
         foreach (var plane in planes)
         {
-            if (plane.GetDistanceToPoint(point) > 0)
+            if (plane.GetDistanceToPoint(point) < 0)
             {
                 return false;
             }
@@ -27,23 +28,32 @@ public class CheckCam : MonoBehaviour
 
     void Start()
     {
-        
+      //foundImg = gameObject.GetComponent<Image>();
     }
 
     void Update()
     {
       
-            var targetRender = questItem.GetComponent<Renderer>();
+        var targetRender = questItem.GetComponent<SpriteRenderer>();
 
-            if (IsVisible(cam, questItem) && isExit == false)
-            {
-                Debug.Log(questItem + "보임"); 
-            }
+        if (IsVisible(cam, questItem) && isExit == false)
+        {
+            //Debug.Log(questItem + "보임");
+            foundImg.gameObject.SetActive(true);
+        }
 
-            else
-            {
-                //Debug.Log(questItem + "안 보임");
-            }
+        else
+        {
+            foundImg.gameObject.SetActive(false);
+            //Debug.Log(questItem + "안 보임");
         }
         
+        }
+
+    public void DestroyImg()
+    {
+        Destroy(questItem);
+        Debug.Log("삭제");
     }
+
+}

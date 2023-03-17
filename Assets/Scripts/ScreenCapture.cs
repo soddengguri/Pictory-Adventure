@@ -142,8 +142,8 @@ namespace WorkPlus {
         public void Capture (int width, int height, string path) {
             byte[] imgBytes = null;
 
-            Texture2D texture = new Texture2D (787, 620, TextureFormat.RGB24, false);
-            texture.ReadPixels (new Rect (342, 180, width, height), 0, 0, false);
+            Texture2D texture = new Texture2D (820, 644, TextureFormat.RGB24, false);
+            texture.ReadPixels (new Rect (350, 187, width, height), 0, 0, false);
             texture.Apply (); //Make screen texture
 
             switch (extension) {

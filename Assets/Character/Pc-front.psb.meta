@@ -1,28 +1,69 @@
 fileFormatVersion: 2
 guid: 87ea8ecc28858db4e853341be4f22df9
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: Pc-front_GO/Pc-front_GO
-    100002: Pc-front_GO/Pc-front_GO/front-arm
-    100004: Pc-front_GO/Pc-front_GO/front-body
-    100006: Pc-front_GO/Pc-front_GO/front-leg L
-    100008: Pc-front_GO/Pc-front_GO/front-leg R
-    400000: Pc-front_GO/Pc-front_GO/Transform
-    400002: Pc-front_GO/Pc-front_GO/front-arm/Transform
-    400004: Pc-front_GO/Pc-front_GO/front-body/Transform
-    400006: Pc-front_GO/Pc-front_GO/front-leg L/Transform
-    400008: Pc-front_GO/Pc-front_GO/front-leg R/Transform
-    2800000: Pc-front
-    21200000: Pc-front_GO/Pc-front_GO/front-arm/SpriteRenderer
-    21200002: Pc-front_GO/Pc-front_GO/front-body/SpriteRenderer
-    21200004: Pc-front_GO/Pc-front_GO/front-leg L/SpriteRenderer
-    21200006: Pc-front_GO/Pc-front_GO/front-leg R/SpriteRenderer
-    21300000: b3ede652ecaf1c1479256553ea2b47c6
-    21300002: e90def78652872747bc52e463e226e93
-    21300004: 82a1a1e960d4ddc419a2b5c14ee7bb43
-    21300006: 58f97814a729d9043bdd653bdfbaf7f2
-    100100000: Pc-front_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Pc-front_GO/Pc-front_GO
+  - first:
+      1: 100002
+    second: Pc-front_GO/Pc-front_GO/front-arm
+  - first:
+      1: 100004
+    second: Pc-front_GO/Pc-front_GO/front-body
+  - first:
+      1: 100006
+    second: Pc-front_GO/Pc-front_GO/front-leg L
+  - first:
+      1: 100008
+    second: Pc-front_GO/Pc-front_GO/front-leg R
+  - first:
+      4: 400000
+    second: Pc-front_GO/Pc-front_GO/Transform
+  - first:
+      4: 400002
+    second: Pc-front_GO/Pc-front_GO/front-arm/Transform
+  - first:
+      4: 400004
+    second: Pc-front_GO/Pc-front_GO/front-body/Transform
+  - first:
+      4: 400006
+    second: Pc-front_GO/Pc-front_GO/front-leg L/Transform
+  - first:
+      4: 400008
+    second: Pc-front_GO/Pc-front_GO/front-leg R/Transform
+  - first:
+      28: 2800000
+    second: Pc-front
+  - first:
+      212: 21200000
+    second: Pc-front_GO/Pc-front_GO/front-arm/SpriteRenderer
+  - first:
+      212: 21200002
+    second: Pc-front_GO/Pc-front_GO/front-body/SpriteRenderer
+  - first:
+      212: 21200004
+    second: Pc-front_GO/Pc-front_GO/front-leg L/SpriteRenderer
+  - first:
+      212: 21200006
+    second: Pc-front_GO/Pc-front_GO/front-leg R/SpriteRenderer
+  - first:
+      213: 21300000
+    second: b3ede652ecaf1c1479256553ea2b47c6
+  - first:
+      213: 21300002
+    second: e90def78652872747bc52e463e226e93
+  - first:
+      213: 21300004
+    second: 82a1a1e960d4ddc419a2b5c14ee7bb43
+  - first:
+      213: 21300006
+    second: 58f97814a729d9043bdd653bdfbaf7f2
+  - first:
+      1001: 100100000
+    second: Pc-front_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -43,6 +84,7 @@ ScriptedImporter:
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
+    vTOnly: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -61,6 +103,9 @@ ScriptedImporter:
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -80,6 +125,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -93,6 +139,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -116,6 +163,7 @@ ScriptedImporter:
       width: 38
       height: 64
     spriteID: b3ede652ecaf1c1479256553ea2b47c6
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -137,6 +185,7 @@ ScriptedImporter:
       width: 288
       height: 409
     spriteID: e90def78652872747bc52e463e226e93
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -158,6 +207,7 @@ ScriptedImporter:
       width: 65
       height: 147
     spriteID: 82a1a1e960d4ddc419a2b5c14ee7bb43
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,6 +229,7 @@ ScriptedImporter:
       width: 65
       height: 147
     spriteID: 58f97814a729d9043bdd653bdfbaf7f2
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -196,6 +247,10 @@ ScriptedImporter:
   importedTextureWidth: 512
   importedTextureHeight: 512
   documentSize: {x: 525, y: 642}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 512
   textureActualHeight: 512
   spritePackingTag: 
@@ -235,7 +290,9 @@ ScriptedImporter:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
-  boneGOs: []
+    characterGroups: []
   generateGOHierarchy: 0
   textureAssetName: Pc-front
   prefabAssetName: Pc-front_GO
+  spriteLibAssetName: Pc-front Sprite Lib
+  secondarySpriteTextures: []

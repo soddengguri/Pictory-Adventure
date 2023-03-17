@@ -1,44 +1,117 @@
 fileFormatVersion: 2
 guid: bc55c830f7a139c4482b1806959509e5
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: player-cross_GO/player-cross_GO
-    100002: player-cross_GO/player-cross_GO/cross-arm
-    100004: player-cross_GO/player-cross_GO/cross-body
-    100006: player-cross_GO/player-cross_GO/cross-leg-L
-    100008: player-cross_GO/player-cross_GO/cross-leg-R
-    100010: player-cross_GO/player-cross_GO/bone_1
-    100012: player-cross_GO/player-cross_GO/bone_1/bone_2
-    100014: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3
-    100016: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/bone_4
-    100018: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/bone_5
-    100020: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_6
-    400000: player-cross_GO/player-cross_GO/Transform
-    400002: player-cross_GO/player-cross_GO/cross-arm/Transform
-    400004: player-cross_GO/player-cross_GO/cross-body/Transform
-    400006: player-cross_GO/player-cross_GO/cross-leg-L/Transform
-    400008: player-cross_GO/player-cross_GO/cross-leg-R/Transform
-    400010: player-cross_GO/player-cross_GO/bone_1/Transform
-    400012: player-cross_GO/player-cross_GO/bone_1/bone_2/Transform
-    400014: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/Transform
-    400016: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/bone_4/Transform
-    400018: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/bone_5/Transform
-    400020: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_6/Transform
-    2800000: player-cross
-    11400000: player-cross_GO/player-cross_GO/cross-arm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400002: player-cross_GO/player-cross_GO/cross-body/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400004: player-cross_GO/player-cross_GO/cross-leg-L/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400006: player-cross_GO/player-cross_GO/cross-leg-R/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    21200000: player-cross_GO/player-cross_GO/cross-arm/SpriteRenderer
-    21200002: player-cross_GO/player-cross_GO/cross-body/SpriteRenderer
-    21200004: player-cross_GO/player-cross_GO/cross-leg-L/SpriteRenderer
-    21200006: player-cross_GO/player-cross_GO/cross-leg-R/SpriteRenderer
-    21300000: 0495c083c11c56c4d90e37aa4f172b0d
-    21300002: ce181d10263e8d346ad131793f0fe2ff
-    21300004: 726cfc21829f54f4289d6d2882e5fc87
-    21300006: 0edb96932f85e4b46a3b2daae12f1d23
-    100100000: player-cross_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: player-cross_GO/player-cross_GO
+  - first:
+      1: 100002
+    second: player-cross_GO/player-cross_GO/cross-arm
+  - first:
+      1: 100004
+    second: player-cross_GO/player-cross_GO/cross-body
+  - first:
+      1: 100006
+    second: player-cross_GO/player-cross_GO/cross-leg-L
+  - first:
+      1: 100008
+    second: player-cross_GO/player-cross_GO/cross-leg-R
+  - first:
+      1: 100010
+    second: player-cross_GO/player-cross_GO/bone_1
+  - first:
+      1: 100012
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2
+  - first:
+      1: 100014
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3
+  - first:
+      1: 100016
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/bone_4
+  - first:
+      1: 100018
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/bone_5
+  - first:
+      1: 100020
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_6
+  - first:
+      4: 400000
+    second: player-cross_GO/player-cross_GO/Transform
+  - first:
+      4: 400002
+    second: player-cross_GO/player-cross_GO/cross-arm/Transform
+  - first:
+      4: 400004
+    second: player-cross_GO/player-cross_GO/cross-body/Transform
+  - first:
+      4: 400006
+    second: player-cross_GO/player-cross_GO/cross-leg-L/Transform
+  - first:
+      4: 400008
+    second: player-cross_GO/player-cross_GO/cross-leg-R/Transform
+  - first:
+      4: 400010
+    second: player-cross_GO/player-cross_GO/bone_1/Transform
+  - first:
+      4: 400012
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2/Transform
+  - first:
+      4: 400014
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/Transform
+  - first:
+      4: 400016
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/bone_4/Transform
+  - first:
+      4: 400018
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_3/bone_5/Transform
+  - first:
+      4: 400020
+    second: player-cross_GO/player-cross_GO/bone_1/bone_2/bone_6/Transform
+  - first:
+      28: 2800000
+    second: player-cross
+  - first:
+      114: 11400000
+    second: player-cross_GO/player-cross_GO/cross-arm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400002
+    second: player-cross_GO/player-cross_GO/cross-body/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400004
+    second: player-cross_GO/player-cross_GO/cross-leg-L/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400006
+    second: player-cross_GO/player-cross_GO/cross-leg-R/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      212: 21200000
+    second: player-cross_GO/player-cross_GO/cross-arm/SpriteRenderer
+  - first:
+      212: 21200002
+    second: player-cross_GO/player-cross_GO/cross-body/SpriteRenderer
+  - first:
+      212: 21200004
+    second: player-cross_GO/player-cross_GO/cross-leg-L/SpriteRenderer
+  - first:
+      212: 21200006
+    second: player-cross_GO/player-cross_GO/cross-leg-R/SpriteRenderer
+  - first:
+      213: 21300000
+    second: 0495c083c11c56c4d90e37aa4f172b0d
+  - first:
+      213: 21300002
+    second: ce181d10263e8d346ad131793f0fe2ff
+  - first:
+      213: 21300004
+    second: 726cfc21829f54f4289d6d2882e5fc87
+  - first:
+      213: 21300006
+    second: 0edb96932f85e4b46a3b2daae12f1d23
+  - first:
+      1001: 100100000
+    second: player-cross_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -59,6 +132,7 @@ ScriptedImporter:
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
+    vTOnly: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -77,6 +151,9 @@ ScriptedImporter:
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -96,6 +173,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -109,6 +187,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -132,6 +211,7 @@ ScriptedImporter:
       width: 38
       height: 64
     spriteID: 0495c083c11c56c4d90e37aa4f172b0d
+    internalID: 0
     spriteBone:
     - name: bone_6
       position: {x: 18.94757, y: 53.186646, z: 0}
@@ -828,6 +908,7 @@ ScriptedImporter:
       width: 288
       height: 409
     spriteID: ce181d10263e8d346ad131793f0fe2ff
+    internalID: 0
     spriteBone:
     - name: bone_3
       position: {x: 59.865513, y: 0.0000002503345, z: 0}
@@ -1780,6 +1861,7 @@ ScriptedImporter:
       width: 65
       height: 147
     spriteID: 726cfc21829f54f4289d6d2882e5fc87
+    internalID: 0
     spriteBone:
     - name: bone_4
       position: {x: 39.51294, y: 142.0041, z: 0}
@@ -2683,6 +2765,7 @@ ScriptedImporter:
       width: 65
       height: 147
     spriteID: 0edb96932f85e4b46a3b2daae12f1d23
+    internalID: 0
     spriteBone:
     - name: bone_5
       position: {x: 38.906372, y: 142.91104, z: 0}
@@ -3635,6 +3718,10 @@ ScriptedImporter:
   importedTextureWidth: 512
   importedTextureHeight: 512
   documentSize: {x: 693, y: 693}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 512
   textureActualHeight: 512
   spritePackingTag: 
@@ -3717,6 +3804,8 @@ ScriptedImporter:
         height: 64
       spriteId: 0495c083c11c56c4d90e37aa4f172b0d
       bones: 05000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 203
         y: 215
@@ -3724,6 +3813,8 @@ ScriptedImporter:
         height: 409
       spriteId: ce181d10263e8d346ad131793f0fe2ff
       bones: 020000000100000000000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 263
         y: 68
@@ -3731,6 +3822,8 @@ ScriptedImporter:
         height: 147
       spriteId: 726cfc21829f54f4289d6d2882e5fc87
       bones: 03000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 328
         y: 68
@@ -3738,20 +3831,12 @@ ScriptedImporter:
         height: 147
       spriteId: 0edb96932f85e4b46a3b2daae12f1d23
       bones: 04000000
+      parentGroup: 0
+      order: 0
     dimension: {x: 0, y: 0}
-  boneGOs:
-  - go: {fileID: 100010, guid: bc55c830f7a139c4482b1806959509e5, type: 3}
-    index: 0
-  - go: {fileID: 100012, guid: bc55c830f7a139c4482b1806959509e5, type: 3}
-    index: 1
-  - go: {fileID: 100014, guid: bc55c830f7a139c4482b1806959509e5, type: 3}
-    index: 2
-  - go: {fileID: 100016, guid: bc55c830f7a139c4482b1806959509e5, type: 3}
-    index: 3
-  - go: {fileID: 100018, guid: bc55c830f7a139c4482b1806959509e5, type: 3}
-    index: 4
-  - go: {fileID: 100020, guid: bc55c830f7a139c4482b1806959509e5, type: 3}
-    index: 5
+    characterGroups: []
   generateGOHierarchy: 0
   textureAssetName: player-cross
   prefabAssetName: player-cross_GO
+  spriteLibAssetName: player-cross Sprite Lib
+  secondarySpriteTextures: []

@@ -13,44 +13,73 @@ public class FilmChange : MonoBehaviour
         num = 0;
     }
 
-    private void Update()
-    {
-        if (num >= 7);
-        {
-            num = 7;
-        }
-
-        if(num < 0)
-        {
-            num = 0;
-        }
-
-        if(num == 0)
-        {
-            filmObj[0].gameObject.SetActive(true);
-        }
-    }
-
     public void Next()
     {
-        num += 1;
+        
 
         for(int i = 0; i < filmObj.Length; i++)
         {
-            filmObj[i].gameObject.SetActive(false);
+            if (num < filmObj.Length)
+            {
+                filmObj[i].gameObject.SetActive(false);
+                filmObj[num].gameObject.SetActive(true);
+            }
+            else if (num >= filmObj.Length)
+            {
+                num = 0;
+            }
+        }
+
+
+        num += 1;
+
+        if (num >= filmObj.Length)
+        {
+            num = 0;
             filmObj[num].gameObject.SetActive(true);
         }
-        Debug.Log(num);
+
+        Debug.Log("num:" + num);
+
     }
 
     public void Previous()
     {
         num -= 1;
-        for(int i = 0; i < filmObj.Length; i++)
+
+        if (num < 0)
+        {
+            num = Mathf.Abs(filmObj.Length);
+        }
+
+        for (int i = 0; i < filmObj.Length; i++)
+        {
+            if(num <= filmObj.Length)
+            {
+                filmObj[i].gameObject.SetActive(false);
+                filmObj[num].gameObject.SetActive(true);
+            }
+            else if(num < 0)
+            {
+                num = Mathf.Abs(filmObj.Length);
+            }
+            
+        }
+        Debug.Log("num:" + num);
+    }
+
+    public void Resetnum()
+    {
+        num = 0;
+
+        for(int i = 0; i <  filmObj.Length; i++)
         {
             filmObj[i].gameObject.SetActive(false);
-            filmObj[num].gameObject.SetActive(true);
+            filmObj[i].gameObject.SetActive(false);
         }
-        Debug.Log(num);
+
+        filmObj[0].gameObject.SetActive(true);
+        filmObj[0].gameObject.SetActive(true);
+
     }
 }

@@ -10,15 +10,15 @@ public class Transport: MonoBehaviour
     public GameObject player;
     public GameObject splashObj;
     Image image;
+    //Button doorBtn;
     public Vector3 movePos;
 
     private bool checkbool = false;
 
-
-
     private void Awake()
     {
-        image = splashObj.GetComponent<Image>();    
+        image = splashObj.GetComponent<Image>();
+        //doorBtn = GetComponent<Button>();
     }
 
 
@@ -49,5 +49,6 @@ public class Transport: MonoBehaviour
             Debug.Log("실행");
             Destroy(this.gameObject);                        //판넬 파괴, 삭제
         }
+
     }
- }
+}

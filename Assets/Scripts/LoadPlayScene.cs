@@ -7,7 +7,10 @@ public class LoadPlayScene : MonoBehaviour
 {
     public void Move()
     {
-        Invoke("SceneChange", 2f);  // 2초 뒤 
+        Invoke("SceneChange", 0f);  // 2초 뒤 
+        //Destroy(GameObject.Find("MusicSource").GetComponent<SoundManager>().MusicSource);
+        Destroy(GameObject.Find("MusicSource"));
+        Destroy(GameObject.FindGameObjectWithTag("Music"));
         Debug.Log("Play씬으로 전환");
     }
 
@@ -15,6 +18,7 @@ public class LoadPlayScene : MonoBehaviour
     public void SceneChange()
     {
         SceneManager.LoadScene("Play");
+        //Destroy(GameObject.Find("MusicSource").GetComponent<SoundManager>().MusicSource);
     }
 
 }

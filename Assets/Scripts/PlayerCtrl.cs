@@ -12,6 +12,9 @@ public class PlayerCtrl : MonoBehaviour
     Animation anim;
     Vector3 dirVec;
     //GameObject scanObject;
+    //SoundEffect
+    public AudioClip audioWalk;
+    AudioSource audioSrc;
 
     void Start()
     {
@@ -19,6 +22,7 @@ public class PlayerCtrl : MonoBehaviour
         animator = GetComponent<Animator>();
         anim = GetComponent<Animation>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSrc = GetComponent<AudioSource>();
     }
 
 
@@ -41,11 +45,20 @@ public class PlayerCtrl : MonoBehaviour
         {
             spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == 1; //스프라이트좌우대칭
             animator.SetBool("SideWalking", true);
+            if (!audioSrc.isPlaying)
+            {
+                audioSrc.Play();
+            }
+            //audioSrc.clip = audioWalk;
             //dirVec = Vector3.back;
         }
         if (Input.GetButtonUp("Horizontal"))
         {
             animator.SetBool("SideWalking", false);
+            if (audioSrc.isPlaying)
+            {
+                audioSrc.Stop();
+            }
         }
 
         //위쪽방향키
@@ -54,10 +67,20 @@ public class PlayerCtrl : MonoBehaviour
             if (v >= 0.0f)
             {
                 animator.SetBool("BackWalking", true);
+                if (!audioSrc.isPlaying)
+                {
+                    audioSrc.Play();
+                }
+                //audioSrc.clip = audioWalk;
             }
             else if (v < 0.0f)
             {
                 animator.SetBool("FrontWalking", true);
+                audioSrc.clip = audioWalk;
+                if (!audioSrc.isPlaying)
+                {
+                    audioSrc.Play();
+                }
             }
 
             dirVec = Vector3.back;
@@ -68,10 +91,18 @@ public class PlayerCtrl : MonoBehaviour
             if (v >= 0.0f)
             {
                 animator.SetBool("BackWalking", false);
+                if (audioSrc.isPlaying)
+                {
+                    audioSrc.Stop();
+                }
             }
             if (v <= 0.0f)
             {
                 animator.SetBool("FrontWalking", false);
+                if (audioSrc.isPlaying)
+                {
+                    audioSrc.Stop();
+                }
             }
         }
 

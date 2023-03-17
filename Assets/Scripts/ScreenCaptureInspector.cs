@@ -3,9 +3,10 @@ using UnityEngine.UI;
 using UnityEditor;
 
 namespace WorkPlus {
-
+#if UNITY_EDITOR
     [CustomEditor (typeof (ScreenCapture))]
     public class ScreenCaptureInspector : Editor {
+
 
         /// <summary>
         /// Custom Inspector for ScreenCapture script.
@@ -90,4 +91,6 @@ namespace WorkPlus {
                 GUILayout.Box ("You have to setting save path to save capture."); //Path undefined warning
         }
     }
+
+#endif
 }

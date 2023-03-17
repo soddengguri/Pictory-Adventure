@@ -23,6 +23,6 @@ public class GameManager : MonoBehaviour
     }
     //게임 내에서 씬이동시 유지하고 싶은 변수 
     public int reputation = 0;
-    public int money = 100000;
+    //public int money = 100000;
 }
 
