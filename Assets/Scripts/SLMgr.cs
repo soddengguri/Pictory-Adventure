@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Newtonsoft.Json;
 using UnityEngine.UI;
 using System.IO;
 
@@ -28,7 +27,7 @@ public class SLMgr : MonoBehaviour
 
     public void _save()
     {
-        string jdata = JsonConvert.SerializeObject(data);
+        string jdata = JsonUtility.ToJson(data);
         File.WriteAllText(Application.dataPath + "/PlayerData.json", jdata);
     }
 
@@ -36,8 +35,7 @@ public class SLMgr : MonoBehaviour
     {
         string jdata = File.ReadAllText(Application.dataPath + "/PlayerData.json");
         tx.text = jdata;
-        data = JsonConvert.DeserializeObject<List<PlayerName>>(jdata);
-
+        data = JsonUtility.FromJson<List<PlayerName>>(jdata);
         print(data[0].playerName);
     }
 }

@@ -24,7 +24,7 @@ public class CreateAlbum : MonoBehaviour
 
         for (int i = 0; i < album.Length; i++)
         {
-            GameObject newObj = Instantiate(
+            GameObject newObj = Instantiate(        //계속 앨범를 중복해서 새로 불러오는 이슈
             imgData, createPos, Quaternion.identity,
             GameObject.Find("Contents").transform);
 
