@@ -1,5 +1,5 @@
 ## 픽토리 어드벤처 Pictory Adventure
-# 3D 어드벤처 촬영 힐링 게임 (Adventure Shoot Healing Game)
+3D 어드벤처 촬영 힐링 게임 (Adventure Shoot Healing Game)
 ![Pictory_Adventure](https://github.com/soddengguri/Pictory-Adventure/assets/88537867/bd38e8a1-adc2-4c7b-a496-08b6ae8161b8)
 
 
